@@ -1,0 +1,211 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+/* line 6, ../MYMSUPLEMENTOS/sass/style.scss */
+* {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* line 10, ../MYMSUPLEMENTOS/sass/style.scss */
+body {
+  background: #161815;
+  overflow-x: hidden;
+}
+
+/* line 15, ../MYMSUPLEMENTOS/sass/style.scss */
+.section-padding {
+  padding: 70px 0;
+}
+
+/* line 19, ../MYMSUPLEMENTOS/sass/style.scss */
+.carousel-item {
+  height: 92vh;
+  min-height: 300px;
+  text-shadow: 1px 1px 3px black;
+}
+
+/* line 25, ../MYMSUPLEMENTOS/sass/style.scss */
+.carousel-caption {
+  z-index: 2;
+}
+
+/* line 28, ../MYMSUPLEMENTOS/sass/style.scss */
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 15px;
+}
+
+/* line 35, ../MYMSUPLEMENTOS/sass/style.scss */
+.carousel-caption h1 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+/* line 42, ../MYMSUPLEMENTOS/sass/style.scss */
+.carousel-caption p {
+  width: 60%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+/* line 52, ../MYMSUPLEMENTOS/sass/style.scss */
+.carousel-inner::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.432);
+  z-index: 1;
+}
+
+/* line 64, ../MYMSUPLEMENTOS/sass/style.scss */
+.btn-p {
+  background-color: #1eff00;
+  text-shadow: 1px 1px 3px black;
+}
+
+/* line 70, ../MYMSUPLEMENTOS/sass/style.scss */
+.btn:hover {
+  color: white;
+  background-color: #f75757;
+}
+
+/* line 75, ../MYMSUPLEMENTOS/sass/style.scss */
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+/* line 79, ../MYMSUPLEMENTOS/sass/style.scss */
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+/* line 85, ../MYMSUPLEMENTOS/sass/style.scss */
+.navbar-dark .navbar-brand {
+  color: white;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* line 93, ../MYMSUPLEMENTOS/sass/style.scss */
+.buttom:hover {
+  color: #1eff00;
+}
+
+/* line 98, ../MYMSUPLEMENTOS/sass/style.scss */
+.nav-link:hover {
+  color: #1eff00;
+}
+
+/* line 102, ../MYMSUPLEMENTOS/sass/style.scss */
+.w-100 {
+  height: 100vh;
+}
+
+/* line 106, ../MYMSUPLEMENTOS/sass/style.scss */
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+/* line 112, ../MYMSUPLEMENTOS/sass/style.scss */
+.services .card-body i {
+  font-size: 50px;
+}
+
+/* line 116, ../MYMSUPLEMENTOS/sass/style.scss */
+.iframe-mapa {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 121, ../MYMSUPLEMENTOS/sass/style.scss */
+.iframe-mapa iframe {
+  width: 55%;
+  height: 300px;
+}
+
+/* line 127, ../MYMSUPLEMENTOS/sass/style.scss */
+.navbar-brand .text:hover {
+  background-color: #1eff00;
+}
+
+/* line 131, ../MYMSUPLEMENTOS/sass/style.scss */
+.fa-instagram {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #ff00ea;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px white;
+  transition: all .4s ease-in-out;
+}
+
+/* line 145, ../MYMSUPLEMENTOS/sass/style.scss */
+.fa-instagram:hover {
+  transform: scale(1.2);
+  color: white;
+}
+
+@media (max-width: 767px) {
+  /* line 151, ../MYMSUPLEMENTOS/sass/style.scss */
+  .navbar-nav {
+    text-align: center;
+  }
+  /* line 154, ../MYMSUPLEMENTOS/sass/style.scss */
+  .carousel-item {
+    height: 70vh;
+  }
+  /* line 157, ../MYMSUPLEMENTOS/sass/style.scss */
+  .w-100 {
+    height: 70vh;
+  }
+  /* line 160, ../MYMSUPLEMENTOS/sass/style.scss */
+  .carousel-caption {
+    bottom: 125px;
+  }
+  /* line 163, ../MYMSUPLEMENTOS/sass/style.scss */
+  .carousel-caption h5 {
+    font-size: 17pxs;
+  }
+  /* line 166, ../MYMSUPLEMENTOS/sass/style.scss */
+  .carousel-caption a {
+    padding: 10px 15px;
+    font-size: 15px;
+  }
+  /* line 170, ../MYMSUPLEMENTOS/sass/style.scss */
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.5;
+    font-size: 12px;
+  }
+  /* line 175, ../MYMSUPLEMENTOS/sass/style.scss */
+  .about-text {
+    padding-top: 50px;
+  }
+  /* line 178, ../MYMSUPLEMENTOS/sass/style.scss */
+  .card {
+    margin-bottom: 30px;
+  }
+  /* line 181, ../MYMSUPLEMENTOS/sass/style.scss */
+  .section-padding {
+    padding: 50px 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
