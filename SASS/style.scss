@@ -1,55 +1,58 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
 
-$color-primario: rgb(30, 255, 0);
+$color-primario: rgb(22, 145, 5);
 $color-secundario: rgb(255, 255, 255);
 
-*{
+* {
     font-family: 'Poppins', sans-serif;
 }
 
-body{
+body {
     background: #161815;
-    overflow-x:hidden
+    overflow-x: hidden
 }
 
-.section-padding{
+.section-padding {
     padding: 70px 0;
 }
 
-.carousel-item{
+.carousel-item {
     height: 92vh;
     min-height: 300px;
     text-shadow: 1px 1px 3px black;
 }
 
-.carousel-caption{
+.carousel-caption {
     z-index: 2;
 
-        h5{
+    h5 {
         font-size: 45px;
         text-transform: uppercase;
         letter-spacing: 2px;
         margin-top: 15px;
-         }
+    }
 
-         h1{
-            font-size: 45px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-top: 25px;
-        }
+    h1 {
+        font-size: 45px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 25px;
+    }
 
-        p{
-            width: 60%;
-            margin: auto;
-            font-size: 18px;
-            line-height: 1.9;
-        }
-    
+    p {
+        width: 60%;
+        margin: auto;
+        font-size: 18px;
+        line-height: 1.9;
+    }
+
 }
 
+.text-justify{
+    text-align: justify;
+}
 
-.carousel-inner::before{
+.carousel-inner::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -61,28 +64,59 @@ body{
 }
 
 
-.btn-p{
+.btn-p {
     background-color: $color-primario;
-    text-shadow: 1px 1px 3px black;
+
 }
 
 
-.btn:hover{
+.btn:hover {
     color: $color-secundario;
-    background-color: rgb(247, 87, 87);
+    background-color: (rgb(68, 245, 44));
 }
 
-a:-webkit-any-link{
+.btn-info {
+    color: $color-secundario;
+}
+
+
+
+a {
+    color: $color-secundario;
     text-decoration: none;
 }
 
-.navbar-nav a{
+#galery img {
+    width: 100%;
+    height: 300px;
+}
+
+#galery .col-lg-4 {
+    padding: 25px;
+    margin: 0 !important;
+}
+
+#galery img:hover {
+    border: 5px solid $color-primario;
+}
+
+.form-label {
+    color: $color-secundario;
+}
+
+
+.form-control {
+    border-color: $color-primario;
+    border-width: 3px;
+}
+
+.navbar-nav a {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 500;
 }
 
-.navbar-dark .navbar-brand{
+.navbar-dark .navbar-brand {
     color: $color-secundario;
     font-size: 25px;
     text-transform: uppercase;
@@ -90,26 +124,26 @@ a:-webkit-any-link{
     letter-spacing: 2px;
 }
 
-.buttom:hover{
-    color:$color-primario;
-}
-
-
-.nav-link:hover{
+.buttom:hover {
     color: $color-primario;
 }
 
-.w-100{
+
+.nav-link:hover {
+    color: $color-primario;
+}
+
+.w-100 {
     height: 100vh;
 }
 
-.navbar-toggler{
+.navbar-toggler {
     padding: 1px 5px;
     font-size: 18px;
     line-height: 0.3;
 }
 
-.services .card-body i{
+.services .card-body i {
     font-size: 50px;
 }
 
@@ -124,61 +158,67 @@ a:-webkit-any-link{
     }
 }
 
-.navbar-brand .text:hover{
+.navbar-brand .text:hover {
     background-color: $color-primario;
 }
 
+.fa-facebook{
+    font-size: 30px;
+    color:blue
+}
+
 .fa-instagram{
-    text-decoration: none;
-    font-size: 28px;
-    width: 60px;
-    height: 60px;
-    line-height: 60px;
-    text-align: center;
-    background: #314652;
-    color: rgb(255, 0, 234);
-    border-radius: 50%;
-    box-shadow: 2px 2px 5px $color-secundario;
-    transition: all .4s ease-in-out;
+    font-size: 30px;
+    color: rgb(255, 0, 179);
 }
 
-.fa-instagram:hover{
-    transform: scale(1.2);
-    color: white;
+.fa-whatsapp{
+    font-size: 30px;
+    color: $color-primario;
 }
 
-@media(max-width: 767px){
+
+@media(max-width: 767px) {
     .navbar-nav {
         text-align: center;
     }
-    .carousel-item{
+
+    .carousel-item {
         height: 70vh;
     }
-    .w-100{
+
+    .w-100 {
         height: 70vh;
     }
-    .carousel-caption{
+
+    .carousel-caption {
         bottom: 125px;
     }
-    .carousel-caption h5{
+
+    .carousel-caption h5 {
         font-size: 17pxs;
     }
-    .carousel-caption a{
+
+    .carousel-caption a {
         padding: 10px 15px;
         font-size: 15px;
     }
-    .carousel-caption p{
+
+    .carousel-caption p {
         width: 100%;
         line-height: 1.5;
         font-size: 12px;
     }
-    .about-text{
+
+    .about-text {
         padding-top: 50px;
     }
-    .card{
+
+    .card {
         margin-bottom: 30px;
     }
-    .section-padding{
+
+    .section-padding {
         padding: 50px 0;
     }
 }
